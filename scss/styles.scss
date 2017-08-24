@@ -1,0 +1,180 @@
+@import "foundation";
+
+.header-color{
+    background-color: #272727;
+}
+
+.link-text{
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.logo{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.big-text{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 35px
+}
+
+.ExtraBig-text{
+    color: white;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 40px
+}
+
+.content-text{
+    font-size: 18px;
+    color: #999999;
+    line-height: 30px;
+    text-align: center;
+}
+
+.btn{
+    background: $button-background;
+    color: $button-color;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 16px 28px 16px 28px;
+    cursor: pointer;
+}
+
+.content-title{
+    font-weight: bold;
+    color: black;
+}
+
+.content-descript{
+    color: #cccccc;
+    font-size: 13px;
+}
+
+.pd-box{
+    
+}
+
+.content-color{
+    background-color: #34a56d;
+}
+
+.quick{
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.quickText{
+    color: white;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.quickBtn{
+    background: white;
+    color: #34a56d;
+    text-align: center;
+}
+
+.footer-title{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.footer-text{
+    color: #999999;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 31px;
+}
+
+.footer-color{
+    background-color: #f1f1f1;
+}
+
+.social img{
+    display: inline-block;
+}
+
+.copy p{
+    color: #999999;
+}
+
+.no-bg {
+  background: transparent !important;
+}
+
+.custom-pb {
+  padding-bottom: 10px !important;
+}
+
+.tiny-text {
+  font-size: 12px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.basic-link {
+  text-decoration: underline;
+  color: #000;
+}
+
+.main-sub-heading {
+  color: $grey;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 20px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 22px;
+}
+
+.main-body-p {
+  color: $grey;
+  line-height: (22/14);
+}
+
+.decorative-line {
+  background: $grey;
+  height: 2px;
+}
+
+.item-name {
+  text-transform: uppercase;
+  color: $accent;
+}
+
+.item-price {
+  color: $grey;
+}
+
+table.button {
+  margin-bottom: 0;
+  table {
+    td {
+      padding: map-get($button-padding, default);
+      a {
+        padding: 0px;
+      }
+    }
+  }
+}
